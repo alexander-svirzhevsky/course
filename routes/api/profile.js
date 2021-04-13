@@ -8,7 +8,6 @@ const { check, validationResult } = require("express-validator");
 const Profile = require("../../models/Profile");
 const User = require("../../models/User");
 const Post = require("../../models/Post");
-const { restart } = require("nodemon");
 
 // @route    GET API/profile/me
 // @desc     Get current users profile
